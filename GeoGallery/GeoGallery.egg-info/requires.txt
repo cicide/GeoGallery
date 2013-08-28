@@ -1,0 +1,13 @@
+pyramid
+SQLAlchemy
+transaction
+pyramid_tm
+pyramid_debugtoolbar
+zope.sqlalchemy
+waitress
+pyramid_beaker
+mysql-python
+bag
+deform
+paste
+deform_bootstrap

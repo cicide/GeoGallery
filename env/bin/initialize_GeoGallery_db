@@ -1,0 +1,9 @@
+#!/home/abdul/git/GeoGallry/env/bin/python
+# EASY-INSTALL-ENTRY-SCRIPT: 'GeoGallery==0.0','console_scripts','initialize_GeoGallery_db'
+__requires__ = 'GeoGallery==0.0'
+import sys
+from pkg_resources import load_entry_point
+
+sys.exit(
+   load_entry_point('GeoGallery==0.0', 'console_scripts', 'initialize_GeoGallery_db')()
+)

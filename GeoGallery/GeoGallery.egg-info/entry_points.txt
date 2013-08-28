@@ -1,0 +1,5 @@
+      [paste.app_factory]
+      main = geogallery:main
+      [console_scripts]
+      initialize_GeoGallery_db = geogallery.scripts.initializedb:main
+      

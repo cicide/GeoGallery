@@ -1,0 +1,9 @@
+#!/home/abdul/git/GeoGallry/env/bin/python
+# EASY-INSTALL-ENTRY-SCRIPT: 'bag==0.3.8','console_scripts','check_rst'
+__requires__ = 'bag==0.3.8'
+import sys
+from pkg_resources import load_entry_point
+
+sys.exit(
+   load_entry_point('bag==0.3.8', 'console_scripts', 'check_rst')()
+)
